@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="sapcc-swift-sentry",
-    version="0.0.1",
+    version="0.1.0",
     license="Apache License 2.0",
     description="Openstack Swift Custom Log Handler for Sentry",
     author="Muhammad Talal Anwar",
@@ -22,5 +22,5 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    install_requires=["sentry-sdk==0.7.0"],
+    install_requires=["sentry-sdk==0.7.3"],
 )
