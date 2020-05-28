@@ -6,7 +6,6 @@ setup(
     license="Apache License 2.0",
     description="Openstack Swift Custom Log Handler for Sentry",
     author="Muhammad Talal Anwar",
-    author_email="muhammad.talal.anwar@sap.com",
     url="https://github.com/sapcc/swift-sentry",
     packages=find_packages(),
     classifiers=[
@@ -21,6 +20,7 @@ setup(
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
     ],
-    install_requires=["sentry-sdk==0.7.3"],
+    install_requires=["sentry-sdk==0.14.4"],
 )
