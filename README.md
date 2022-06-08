@@ -1,3 +1,7 @@
+# Archived project. No maintenance.
+
+This project is not maintained anymore and is archived.
+
 # Swift Sentry
 
 This repo provides Sentry integration for Openstack [Swift](https://github.com/openstack/swift)
